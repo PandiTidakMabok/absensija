@@ -1,0 +1,111 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.layout {
+    display: flex;
+}
+.sidebar {
+    width: 80px;
+    background-color: #E066FF;
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 24px;
+    color: white;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 24px 32px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+}
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.tasks {
+    margin-bottom: 32px;
+}
+.task-cards {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+.task-card {
+    width: 33.33%;
+    height: 128px;
+    border-radius: 8px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.schedule-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.schedule-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #333;
+    margin-right: 8px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.header h1 {
+    margin-bottom: 16px; /* Menambahkan jarak di bawah judul */
+}
+
+.header {
+    display: flex;
+    flex-direction: column; /* Mengatur arah flex menjadi kolom */
+    align-items: center; /* Memusatkan item secara horizontal */
+    margin-bottom: 32px;
+    text-align: center; /* Memusatkan teks di dalam header */
+}
