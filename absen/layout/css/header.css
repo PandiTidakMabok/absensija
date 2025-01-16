@@ -1,0 +1,52 @@
+
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left h1 {
+    font-family: "Inter", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #d977e1;
+  }
+  
+  .left h2 {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .time {
+    margin-right: 20px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .profile-name {
+    margin-left: 10px;
+  }
+

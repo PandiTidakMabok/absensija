@@ -10,7 +10,7 @@
 <div class="layout">
     <?php include 'layout/sidebar.html'; ?> <!-- Sertakan file sidebar -->
     <div class="header">
-    <img src="https://via.placeholder.com/40" alt="User   Avatar" class="user-avatar">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQohVU7vpltx-doM8q72rsnvKmqoW3vDctEOw&s" alt="User   Avatar" class="user-avatar">
     <span>Stewie Griffin</span><h1>Last Gen Sija Dashboard</h1>
                 <div class="user-info">
                     

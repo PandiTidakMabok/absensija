@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d977e1;
+  }
+
+  .left h1 {
+    margin-right: 10px; /* Jarak antara "Last Gen" dan "|Dashboard" */
+}
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .time {
+    margin-right: 20px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .profile-name {
+    margin-left: 10px;
+  }
+
+  .h1 {
+    font-family: "Inter", serif;
+
+  }
