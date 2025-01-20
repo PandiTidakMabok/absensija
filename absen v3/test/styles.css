@@ -61,6 +61,10 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+.header .time-container{
+    text-align: center;
+}
+
 /* Sidebar melingkar */
 .sidebar {
     width: 80px;
