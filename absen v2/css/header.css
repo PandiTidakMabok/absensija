@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  flex-direction: column; /* Ubah menjadi flex-direction: column */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000;
+  
+ 
+
+}
+.navbar .logo {
+  font-size: 20px;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 10px; /* Tambahkan margin-bottom */
+
+}
+.navbar .logo span {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #9b59b6;
+}
+.navbar .time-date {
+  text-align: center;
+  margin-bottom: 10px; /* Tambahkan margin-bottom */
+
+}
+.navbar .time-date .time {
+  font-size: 18px;
+}
+.navbar .time-date .date {
+  font-size: 14px;
+}
+.navbar .icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Tambahkan margin-bottom */
+
+}
+.navbar .icons i {
+  margin: 0 10px;
+  font-size: 18px;
+}
+.navbar .profile {
+  display: flex;
+  align-items: center;
+}
+.navbar .profile img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.navbar .profile .name {
+  font-size: 14px;
+}
+/* Kontainer waktu dan tanggal */
+.time-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif; /* Gaya font */
+  color: #ffffff; /* Warna teks */
+  margin-top: 20px; /* Jarak atas */
+}
+
+/* Gaya untuk waktu */
+.time-date .time {
+  font-size: 48px; /* Ukuran font besar untuk jam */
+  font-weight: bold;
+}
+
+/* Gaya untuk tanggal */
+.time-date .date {
+  font-size: 20px; /* Ukuran font lebih kecil untuk tanggal */
+  font-weight: 400;
+  margin-top: 5px; /* Spasi antar elemen */
+}
